@@ -8,6 +8,28 @@
     <title>Momentum</title>
 </head>
 <body>
-    <script src="app.js"></script>
+    <div id="weather" class="weather">
+        <span></span>
+    </div>
+
+    <h1 id="clock" class="clock"></h1>
+    <form id="login" class="hidden login">
+        <input type="text" required placeholder="Type Your Name Here" class="loginInput" maxlength="10"/>
+    </form>
+    <div id="greeting" class="hidden greeting">
+        <span></span>
+        <button>logout</input>
+    </div>
+    <form id="todo-form" class="toDoForm">
+        <input type="text" placeholder="Write a To Do and Press Enter key" class="toDoInput"></form>        
+    </form>
+    <ul id="todo-list" class="toDoList"></ul>
+
+
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
